@@ -71,7 +71,7 @@
     "ApiType": "OpenAi", // OpenAi or AzureOpenAi
     "Endpoint": "", // Only used if ApiType is set to AzureOpenAi
     "ApiKey": ", // OpenAi or AzureOpenAi API key
-    "ModelName": "gpt-3.5-turbo", // AI model name in case of Open AI or deployment name in case of Azure Open AI, for more info check out https://platform.openai.com/docs/models/overview
+    "ModelName": "gpt-3.5-turbo", // AI model name in case of Open AI or deployment name in case of Azure OpenAI, for more info check out https://platform.openai.com/docs/models/overview
     "Temperature": "0.9", // See OpenAi API documentation
     "MaxOutputTokens": "2000" // Maximum number of tokens to return in a reply. See OpenAi API documentation.
   },
